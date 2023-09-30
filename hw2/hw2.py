@@ -193,7 +193,7 @@ def is_osteoporosis(bmd, mean, sd):
         sd (float): reference standard deviation of bone mass density
 
     Returns (boolean): Returns True, if the bone mass density
-        is within osteopenia range False otherwise.
+        is within osteoporosis range False otherwise.
     """
     # Do not remove the following line. This assertion help verify
     # that the bmd is valid
